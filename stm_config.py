@@ -157,7 +157,7 @@ with right_column:
  
 
     # Add a "Preview Data" button
-    if st.button("Preview Data for Entire Snowflake Table"):
+    if st.button("Preview Data"):
         # Fetch and display data for the entire Snowflake table
         conn = snowflake.connector.connect(**connection_parameters1)
         try:
