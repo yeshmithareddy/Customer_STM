@@ -8,7 +8,7 @@ from io import StringIO
 
 import snowflake.connector
 
-st.set_page_config(page_title="CustomerAI", page_icon=":bar_chart:",layout="wide")
+
 
 # Connection parameters for Snowflake and S3
 
