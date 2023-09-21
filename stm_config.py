@@ -211,7 +211,7 @@ with left_column:
         selected_csv_column = st.multiselect("Select a CSV Columns",cols_upper)
 
         #  Add a "Preview Data" button
-    if st.button("Preview Data"):
+    if st.button("Preview CSV Data"):
         if selected_file:
 
  
@@ -276,7 +276,7 @@ with right_column:
     
     # Add a "Preview Data" button
 
-    if st.button("Preview Data for Entire Snowflake Table"):
+    if st.button("Preview Snowflake Table"):
 
         # Fetch and display data for the entire Snowflake table
 
