@@ -99,7 +99,7 @@ with left_column:
         selected_csv_column = st.multiselect("Select a CSV Columns", df_csv.columns.tolist())
         #  Add a "Preview Data" button
 
-    if st.button("Preview Data",type= "primary"):
+    if st.button("Preview Data",type="primary"):
 
         if selected_file:
   # Display a preview of the data
