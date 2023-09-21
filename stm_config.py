@@ -380,4 +380,4 @@ if selected_file and selected_table and selected_csv_column and selected_snowfla
         table_data = [{"Source_Columns": csv_column, "Target_Columns": snowflake_column} for mapping in existing_mappings for csv_column, snowflake_column in mapping]
         st.table(pd.DataFrame(table_data))
     else:
-        st.info("No mappings found for this CSV file and Snowflake table.")
+        st.info(" ")
