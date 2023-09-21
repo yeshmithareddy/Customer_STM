@@ -124,7 +124,7 @@ st.markdown(
 
 # Streamlit app title
 
-st.title("STM_CONFIG")
+st.title("CUSTOMERAI MAPPING")
 
  
 
