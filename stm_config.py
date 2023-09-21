@@ -172,7 +172,7 @@ def load_mappings(mapping_key):
 
 with left_column:
 
-    st.header("CSV File Selector from S3")
+    st.header("CSV Files")
 
     # Specify your S3 bucket name
     bucket_name = 'custai'
@@ -227,7 +227,7 @@ with left_column:
 
 with right_column:
 
-    st.header("Table Selector from Snowflake")
+    st.header("Snowflake Tables")
     conn = snowflake.connector.connect(**connection_parameters1)
 
  
