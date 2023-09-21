@@ -127,7 +127,7 @@ with right_column:
 
 #  Add a "Preview Data" button
 
-    if st.button("Preview Data",type= "primary"):
+    if st.button("Preview Data"):
 
         if selected_file:
 
