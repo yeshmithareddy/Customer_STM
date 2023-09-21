@@ -98,7 +98,9 @@ with left_column:
         # Display columns from the DataFrame
         selected_csv_column = st.multiselect("Select a CSV Columns", df_csv.columns.tolist())
         #  Add a "Preview Data" button
-    if st.button("Preview Data"):
+
+    
+    if st.button("Preview csv data"):
 
  
 
@@ -108,7 +110,7 @@ with left_column:
 
  
 
-            st.write("Preview of Data:")
+            st.write("Preview snowflake Data:")
 
             st.write(df_csv.head())  # You can customize the number of rows to displayYou can customize the number of rows to
 
