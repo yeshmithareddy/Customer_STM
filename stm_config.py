@@ -94,7 +94,8 @@ client = boto3.client(
 
 # Set the page width to a specific value
 
-st.set_page_config(page_title="CustomerAI", page_icon="custai1.png",layout="wide")
+st.set_page_config(page_title="CustomerAI powered by Stm_config", page_icon="custai1.png",layout="wide")
+st.image('custai.png',width =225)
 
  
 
