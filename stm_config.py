@@ -377,7 +377,7 @@ if selected_file and selected_table and selected_csv_column and selected_snowfla
 
 # mapping table
     if existing_mappings:
-        st.header("Mapping  Table")
+        st.header("Table")
         table_data = [{"Source_Columns": csv_column, "Target_Columns": snowflake_column} for mapping in existing_mappings for csv_column, snowflake_column in mapping]
         st.table(pd.DataFrame(table_data))
     else:
