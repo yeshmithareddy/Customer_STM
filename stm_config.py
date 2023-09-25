@@ -185,10 +185,10 @@ with left_column:
     file_list = [obj['Key'] for obj in s3_objects.get('Contents', []) if obj['Key'].endswith('.csv')]
 
     # Dropdown menu for selecting a CSV file
-    selected_file = st.selectbox("Select a CSV file from S3", file_list)
+    selected_file = st.selectbox("Select CSV file from S3", file_list)
 
     # Display the selected file
-    st.write(f"You selected: {selected_file}")
+    # st.write(f"You selected: {selected_file}")
 
  
 
