@@ -403,7 +403,7 @@ hide_menu="""
   footer a:after {
     visibility: visible;
     content: 'https://www.anblicks.com';
-    margin-left: 5px; /* Add some spacing between the copyright text and the link */
+    margin-left: 670px; /* Add some spacing between the copyright text and the link */
     margin-right: 5px; /* Add spacing on the right side of the link */
   }
 </style>
