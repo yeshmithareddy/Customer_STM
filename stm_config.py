@@ -94,7 +94,7 @@ client = boto3.client(
 
 # Set the page width to a specific value
 
-st.set_page_config(page_title="CustomerAI powered by Stm_config", page_icon="custai1.png",layout="wide")
+st.set_page_config(page_title="CustomerAI Config Mapping", page_icon="custai1.png",layout="wide")
 st.image('custai.png',width =225)
 
  
@@ -125,7 +125,7 @@ st.markdown(
 
 # Streamlit app title
 
-st.title("CUSTOMERAI_MAPPING")
+st.title("CUSTOMERAI MAPPING")
 
  
 
@@ -141,7 +141,7 @@ def store_mapping(mapping_key, mapping_value):
 
     mapping_data = {}
 
-    if st.session_state.get('column_mappings'):
+    if st.session_state.get('column mappings'):
 
         mapping_data = st.session_state.column_mappings
 
@@ -209,7 +209,7 @@ with left_column:
  
 
         # Display columns from the DataFrame
-        selected_csv_column = st.multiselect("Select a CSV Columns",cols_upper)
+        selected_csv_column = st.multiselect("Select  CSV Columns",cols_upper)
 
         #  Add a "Preview Data" button
     if st.button("Preview CSV Data"):
@@ -252,13 +252,13 @@ with right_column:
         if conn:
             conn.close()
 
-    selected_table = st.selectbox("Select a Snowflake Table", table_names)
+    selected_table = st.selectbox("Select  Snowflake Table", table_names)
 
  
 
     # Display table names
 
-    st.write("Snowflake Column Names:")
+    # st.write("Snowflake Column Names:")
     conn = snowflake.connector.connect(**connection_parameters1)
 
     try:
