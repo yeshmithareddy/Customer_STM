@@ -385,4 +385,24 @@ if selected_file and selected_table and selected_csv_column and selected_snowfla
 
 
 
-st.markdown("<div class='footer'><b>Copyright (c) Anblicks Inc.  </b><a href='https://www.anblicks.com'>https://www.anblicks.com</a></div>", True)
+hide_menu="""
+<style>
+  footer {
+    visibility: hidden;
+  }
+
+  footer:after {
+    visibility: visible;
+    content: ' Copyright (c) Anblicks Inc. ';
+    #display: inline;
+  }
+
+  footer a:after {
+    visibility: visible;
+    content: 'https://www.anblicks.com';
+    margin-left: 5px; /* Add some spacing between the copyright text and the link */
+    margin-right: 5px; /* Add spacing on the right side of the link */
+  }
+</style>
+"""
+st.markdown(hide_menu,unsafe_allow_html=True)
