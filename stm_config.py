@@ -125,7 +125,7 @@ st.markdown(
 
 # Streamlit app title
 
-st.title(custai1.png CONFIG MAPPING")
+st.title("custai1.png CONFIG MAPPING")
 
  
 
