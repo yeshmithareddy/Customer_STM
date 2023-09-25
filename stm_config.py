@@ -385,6 +385,4 @@ if selected_file and selected_table and selected_csv_column and selected_snowfla
 
 
 
-
 st.markdown("<div class='custom_footer'><b>Copyright (c) Anblicks Inc.  </b><a href='https://www.anblicks.com'>https://www.anblicks.com</a></div>", True)
-
