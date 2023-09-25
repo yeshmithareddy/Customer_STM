@@ -125,7 +125,7 @@ st.markdown(
 
 # Streamlit app title
 
-st.title("page_icon="custai1.png" CONFIG MAPPING")
+st.title("CUSTOMERAI CONFIG MAPPING")
 
  
 
