@@ -291,7 +291,7 @@ with right_column:
             cursor.execute(f"SELECT * FROM {selected_table}")  # Adjust the query as needed
             data = cursor.fetchall()
             if data:
-                st.subheader(f"Preview Data for Entire Snowflake Table:")
+                st.write(f"Preview Data:")
                 st.table(pd.DataFrame(data, columns=snowflake_column_names))
             else:
                 st.warning("No data available.")
