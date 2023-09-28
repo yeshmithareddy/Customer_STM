@@ -94,7 +94,7 @@ client = boto3.client(
 
 # Set the page width to a specific value
 
-st.set_page_config(page_title="CustomerAI Config Mapping", page_icon="custai1.png",layout="wide")
+st.set_page_config(page_title="CustomerAI Table  Mapping", page_icon="custai1.png",layout="wide")
 col1,mid,col2 = st.columns([6.5,1,20])
 with col1:
     st.image("custai.png", width=300)
